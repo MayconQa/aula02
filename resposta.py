@@ -1,8 +1,16 @@
-resposta = input("Vai viajar wm dezembro (S/N)").strip().lower()
+expressa1 = input("Digite True ou false para primeira expressão").strip().capitalize()
+expressao2 = input("Digite True ou false para segunda expressão").strip().capitalize()
 
-if resposta == "n":
-    print("Ficar em casa estudando")
+expressa1 = expressa1 == "True"
+expressao2 = expressao2 == "True"
 
-else: 
-    print("Comprar passagem de avião")
-    
+resultado = expressa1 and expressao2
+
+# Exibe o resultado
+print(f"Resultado de {expressa1} AND {expressao2} é: {resultado}")
+
+
+# v v = v
+# v f = f
+# f v = f
+# f f = f
