@@ -1,8 +1,8 @@
 # Requisitos para o desenvolvimento
 # 1. lê-se igualmente de trás para frente. ok
 # 2. desconsiderando espaços e pontoações. ok
-# 3. Utilize try-except
-# 4. Utilize a função isinstance()
+# 3. Utilize try-except                      ok
+# 4. Utilize a função isinstance() ok
 import string
 
 try:
